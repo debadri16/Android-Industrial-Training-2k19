@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         RadioButton temp=findViewById(r.getCheckedRadioButtonId());
         ib.setClickable(temp.getText().toString().equals("Enabled"));
 
-        if(c.isActivated())
+        if(c.isChecked())
             ib.setVisibility(View.VISIBLE);
         else
             ib.setVisibility(View.INVISIBLE);
