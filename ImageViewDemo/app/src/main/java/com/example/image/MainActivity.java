@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     RadioGroup r;
     ImageButton ib;
     CheckBox c;
-    String TAG="Mainak";
+    String TAG="Debadri";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
